@@ -15,22 +15,7 @@ public class Solution {
     public int MaxDepth(TreeNode root) {
         int maxLen=0;
         if(root!=null){
-            Queue<TreeNode> q = new Queue<TreeNode>();
-            q.Enqueue(root);
-            while(q.Count!=0){
-                maxLen++;
-                int count=q.Count;
-                for(int i=0;i<count;i++){
-                    TreeNode x = q.Peek();
-                    q.Dequeue();
-                    if(x.left!=null){
-                        q.Enqueue(x.left);
-                    }
-                    if(x.right!=null){
-                        q.Enqueue(x.right);
-                    }
-                }
-            }
+            return 1+Math.Max(MaxDepth(root.left),MaxDepth(root.right));
         }
         return maxLen;
     }
