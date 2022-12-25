@@ -11,16 +11,16 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/12/01/tree1.jpg" style="width: 302px; height: 182px;">
-<pre><strong>Input:</strong> root = [2,1,3]
+<pre style="position: relative;"><strong>Input:</strong> root = [2,1,3]
 <strong>Output:</strong> true
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2020/12/01/tree2.jpg" style="width: 422px; height: 292px;">
-<pre><strong>Input:</strong> root = [5,1,4,null,null,3,6]
+<pre style="position: relative;"><strong>Input:</strong> root = [5,1,4,null,null,3,6]
 <strong>Output:</strong> false
 <strong>Explanation:</strong> The root node's value is 5 but its right child's value is 4.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
