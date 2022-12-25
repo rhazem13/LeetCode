@@ -7,20 +7,20 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> n = 5, bad = 4
+<pre style="position: relative;"><strong>Input:</strong> n = 5, bad = 4
 <strong>Output:</strong> 4
 <strong>Explanation:</strong>
 call isBadVersion(3) -&gt; false
 call isBadVersion(5)&nbsp;-&gt; true
 call isBadVersion(4)&nbsp;-&gt; true
 Then 4 is the first bad version.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> n = 1, bad = 1
+<pre style="position: relative;"><strong>Input:</strong> n = 1, bad = 1
 <strong>Output:</strong> 1
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
