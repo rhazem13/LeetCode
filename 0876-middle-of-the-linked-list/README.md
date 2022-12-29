@@ -5,17 +5,17 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-midlist1.jpg" style="width: 544px; height: 65px;">
-<pre><strong>Input:</strong> head = [1,2,3,4,5]
+<pre style="position: relative;"><strong>Input:</strong> head = [1,2,3,4,5]
 <strong>Output:</strong> [3,4,5]
 <strong>Explanation:</strong> The middle node of the list is node 3.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/07/23/lc-midlist2.jpg" style="width: 664px; height: 65px;">
-<pre><strong>Input:</strong> head = [1,2,3,4,5,6]
+<pre style="position: relative;"><strong>Input:</strong> head = [1,2,3,4,5,6]
 <strong>Output:</strong> [4,5,6]
 <strong>Explanation:</strong> Since the list has two middle nodes with values 3 and 4, we return the second one.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
