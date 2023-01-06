@@ -1,10 +1,9 @@
 public class Solution {
     public int HammingWeight(uint n) {
         int ans=0;
-        while(n>0){
-            if((n&1)==1)
-                ans++;
-            n=n>>1;
+        string s=Convert.ToString(n,2);
+        for(int i=0;i<s.Length;i++){
+            ans+=s[i]=='1'?1:0;
         }
         return ans;
     }
