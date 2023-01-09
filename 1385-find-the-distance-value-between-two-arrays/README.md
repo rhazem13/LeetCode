@@ -5,7 +5,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2
+<pre style="position: relative;"><strong>Input:</strong> arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> 
 For arr1[0]=4 we have: 
@@ -23,19 +23,19 @@ For arr1[2]=8 we have:
 <strong>|8-9|=1 &lt;= d=2</strong>
 |8-1|=7 &gt; d=2
 <strong>|8-8|=0 &lt;= d=2</strong>
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> arr1 = [1,4,2,3], arr2 = [-4,-3,6,10,20,30], d = 3
+<pre style="position: relative;"><strong>Input:</strong> arr1 = [1,4,2,3], arr2 = [-4,-3,6,10,20,30], d = 3
 <strong>Output:</strong> 2
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> arr1 = [2,1,100,3], arr2 = [-5,-2,10,-3,7], d = 6
+<pre style="position: relative;"><strong>Input:</strong> arr1 = [2,1,100,3], arr2 = [-5,-2,10,-3,7], d = 6
 <strong>Output:</strong> 1
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
