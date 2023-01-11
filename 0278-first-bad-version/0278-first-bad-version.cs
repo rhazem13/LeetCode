@@ -3,20 +3,22 @@
 
 public class Solution : VersionControl {
     public int FirstBadVersion(int n) {
-        bool foundbad=false;
+        int l=0;
+        int r=n;
+        int ans=-1;
         while(true){
-            if(IsBadVersion(n)){
-                foundbad=true;
-                n/=2;
+            int m=l+(r-l)/2;
+            if(!IsBadVersion(m)){
+                l=m+1;
             }
-            else if(!IsBadVersion(n)){
-                if(foundbad){
-                    while(!IsBadVersion(n)){
-                        n++;
-                    }
-                    return n;
-                }
+            else if(IsBadVersion(m-1)){
+                r=m-1;
+                ans=m-1;
+            }
+            else{
+                return m;
             }
         }
+        return ans;
     }
 }
