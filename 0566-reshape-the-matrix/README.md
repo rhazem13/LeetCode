@@ -9,15 +9,15 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/reshape1-grid.jpg" style="width: 613px; height: 173px;">
-<pre style="position: relative;"><strong>Input:</strong> mat = [[1,2],[3,4]], r = 1, c = 4
+<pre><strong>Input:</strong> mat = [[1,2],[3,4]], r = 1, c = 4
 <strong>Output:</strong> [[1,2,3,4]]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/04/24/reshape2-grid.jpg" style="width: 453px; height: 173px;">
-<pre style="position: relative;"><strong>Input:</strong> mat = [[1,2],[3,4]], r = 2, c = 4
+<pre><strong>Input:</strong> mat = [[1,2],[3,4]], r = 2, c = 4
 <strong>Output:</strong> [[1,2],[3,4]]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
