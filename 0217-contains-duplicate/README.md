@@ -2,15 +2,15 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,3,1]
+<pre><strong>Input:</strong> nums = [1,2,3,1]
 <strong>Output:</strong> true
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong class="example">Example 2:</strong></p>
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,2,3,4]
+</pre><p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> nums = [1,2,3,4]
 <strong>Output:</strong> false
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong class="example">Example 3:</strong></p>
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,1,1,3,3,4,3,2,4,2]
+</pre><p><strong class="example">Example 3:</strong></p>
+<pre><strong>Input:</strong> nums = [1,1,1,3,3,4,3,2,4,2]
 <strong>Output:</strong> true
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
