@@ -9,24 +9,24 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> numbers = [<u>2</u>,<u>7</u>,11,15], target = 9
+<pre><strong>Input:</strong> numbers = [<u>2</u>,<u>7</u>,11,15], target = 9
 <strong>Output:</strong> [1,2]
 <strong>Explanation:</strong> The sum of 2 and 7 is 9. Therefore, index<sub>1</sub> = 1, index<sub>2</sub> = 2. We return [1, 2].
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> numbers = [<u>2</u>,3,<u>4</u>], target = 6
+<pre><strong>Input:</strong> numbers = [<u>2</u>,3,<u>4</u>], target = 6
 <strong>Output:</strong> [1,3]
 <strong>Explanation:</strong> The sum of 2 and 4 is 6. Therefore index<sub>1</sub> = 1, index<sub>2</sub> = 3. We return [1, 3].
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> numbers = [<u>-1</u>,<u>0</u>], target = -1
+<pre><strong>Input:</strong> numbers = [<u>-1</u>,<u>0</u>], target = -1
 <strong>Output:</strong> [1,2]
 <strong>Explanation:</strong> The sum of -1 and 0 is -1. Therefore index<sub>1</sub> = 1, index<sub>2</sub> = 2. We return [1, 2].
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
