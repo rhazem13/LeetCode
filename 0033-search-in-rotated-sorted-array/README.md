@@ -8,15 +8,15 @@
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
-<pre><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 0
+<pre style="position: relative;"><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 0
 <strong>Output:</strong> 4
-</pre><p><strong class="example">Example 2:</strong></p>
-<pre><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 3
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong class="example">Example 2:</strong></p>
+<pre style="position: relative;"><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 3
 <strong>Output:</strong> -1
-</pre><p><strong class="example">Example 3:</strong></p>
-<pre><strong>Input:</strong> nums = [1], target = 0
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre><p><strong class="example">Example 3:</strong></p>
+<pre style="position: relative;"><strong>Input:</strong> nums = [1], target = 0
 <strong>Output:</strong> -1
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
 
