@@ -11,7 +11,7 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input</strong>
+<pre><strong>Input</strong>
 ["SeatManager", "reserve", "reserve", "unreserve", "reserve", "reserve", "reserve", "reserve", "unreserve"]
 [[5], [], [], [2], [], [], [], [], [5]]
 <strong>Output</strong>
@@ -27,7 +27,7 @@ seatManager.reserve();    // The available seats are [3,4,5], so return the lowe
 seatManager.reserve();    // The available seats are [4,5], so return the lowest of them, which is 4.
 seatManager.reserve();    // The only available seat is seat 5, so return 5.
 seatManager.unreserve(5); // Unreserve seat 5, so now the available seats are [5].
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
