@@ -5,30 +5,30 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> digits = [1,2,3]
+<pre style="position: relative;"><strong>Input:</strong> digits = [1,2,3]
 <strong>Output:</strong> [1,2,4]
 <strong>Explanation:</strong> The array represents the integer 123.
 Incrementing by one gives 123 + 1 = 124.
 Thus, the result should be [1,2,4].
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> digits = [4,3,2,1]
+<pre style="position: relative;"><strong>Input:</strong> digits = [4,3,2,1]
 <strong>Output:</strong> [4,3,2,2]
 <strong>Explanation:</strong> The array represents the integer 4321.
 Incrementing by one gives 4321 + 1 = 4322.
 Thus, the result should be [4,3,2,2].
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> digits = [9]
+<pre style="position: relative;"><strong>Input:</strong> digits = [9]
 <strong>Output:</strong> [1,0]
 <strong>Explanation:</strong> The array represents the integer 9.
 Incrementing by one gives 9 + 1 = 10.
 Thus, the result should be [1,0].
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
