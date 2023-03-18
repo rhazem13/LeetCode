@@ -3,24 +3,24 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/20/grid3.png" style="width: 301px; height: 121px;">
-<pre style="position: relative;"><strong>Input:</strong> mat = [[0,1],[1,0]], target = [[1,0],[0,1]]
+<pre><strong>Input:</strong> mat = [[0,1],[1,0]], target = [[1,0],[0,1]]
 <strong>Output:</strong> true
 <strong>Explanation: </strong>We can rotate mat 90 degrees clockwise to make mat equal target.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/20/grid4.png" style="width: 301px; height: 121px;">
-<pre style="position: relative;"><strong>Input:</strong> mat = [[0,1],[1,1]], target = [[1,0],[0,1]]
+<pre><strong>Input:</strong> mat = [[0,1],[1,1]], target = [[1,0],[0,1]]
 <strong>Output:</strong> false
 <strong>Explanation:</strong> It is impossible to make mat equal to target by rotating mat.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2021/05/26/grid4.png" style="width: 661px; height: 184px;">
-<pre style="position: relative;"><strong>Input:</strong> mat = [[0,0,0],[0,1,0],[1,1,1]], target = [[1,1,1],[0,1,0],[0,0,0]]
+<pre><strong>Input:</strong> mat = [[0,0,0],[0,1,0],[1,1,1]], target = [[1,1,1],[0,1,0],[0,0,0]]
 <strong>Output:</strong> true
 <strong>Explanation: </strong>We can rotate mat 90 degrees clockwise two times to make mat equal target.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
