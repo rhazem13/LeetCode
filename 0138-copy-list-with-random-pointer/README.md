@@ -18,23 +18,23 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/e1.png" style="width: 700px; height: 142px;">
-<pre style="position: relative;"><strong>Input:</strong> head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
+<pre><strong>Input:</strong> head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
 <strong>Output:</strong> [[7,null],[13,0],[11,4],[10,2],[1,0]]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 <img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/e2.png" style="width: 700px; height: 114px;">
-<pre style="position: relative;"><strong>Input:</strong> head = [[1,1],[2,1]]
+<pre><strong>Input:</strong> head = [[1,1],[2,1]]
 <strong>Output:</strong> [[1,1],[2,1]]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
 <p><strong><img alt="" src="https://assets.leetcode.com/uploads/2019/12/18/e3.png" style="width: 700px; height: 122px;"></strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> head = [[3,null],[3,0],[3,null]]
+<pre><strong>Input:</strong> head = [[3,null],[3,0],[3,null]]
 <strong>Output:</strong> [[3,null],[3,0],[3,null]]
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
