@@ -9,24 +9,24 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [1], k = 0
+<pre><strong>Input:</strong> nums = [1], k = 0
 <strong>Output:</strong> 0
 <strong>Explanation:</strong> The score is max(nums) - min(nums) = 1 - 1 = 0.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [0,10], k = 2
+<pre><strong>Input:</strong> nums = [0,10], k = 2
 <strong>Output:</strong> 6
 <strong>Explanation:</strong> Change nums to be [2, 8]. The score is max(nums) - min(nums) = 8 - 2 = 6.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre style="position: relative;"><strong>Input:</strong> nums = [1,3,6], k = 3
+<pre><strong>Input:</strong> nums = [1,3,6], k = 3
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> Change nums to be [4, 6, 3]. The score is max(nums) - min(nums) = 6 - 3 = 3.
-<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+</pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
