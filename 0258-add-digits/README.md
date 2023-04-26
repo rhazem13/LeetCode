@@ -3,19 +3,19 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> num = 38
+<pre style="position: relative;"><strong>Input:</strong> num = 38
 <strong>Output:</strong> 2
 <strong>Explanation:</strong> The process is
 38 --&gt; 3 + 8 --&gt; 11
 11 --&gt; 1 + 1 --&gt; 2 
 Since 2 has only one digit, return it.
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> num = 0
+<pre style="position: relative;"><strong>Input:</strong> num = 0
 <strong>Output:</strong> 0
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
