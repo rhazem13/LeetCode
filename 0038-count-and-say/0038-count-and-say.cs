@@ -1,37 +1,22 @@
 public class Solution {
     public string CountAndSay(int n) {
-        return Helper(n, "1");
-    }
-
-    private string Helper(int n, string countAndSay) {
-        // Base case
-        if (n == 1)
-            return countAndSay;
-
-        // Count and say the countAndSay string and recurse
-        string newCountAndSay = ExtractCountAndSay(countAndSay);
-        return Helper(n - 1, newCountAndSay);
-    }
-
-    private string ExtractCountAndSay(string countAndSay) {
-        int i = 0;
-        StringBuilder res = new StringBuilder();
-        
-        while (i < countAndSay.Length) {
-            char currentChar = countAndSay[i];
-            int count = 0;
-            
-            // Count the number of consecutive identical characters
-            while (i < countAndSay.Length && countAndSay[i] == currentChar) {
-                count++;
-                i++;
+        if(n==1) return "1";
+        string s = CountAndSay(n-1);
+        // now we say tmp and return it
+        int t = s.Length;
+        StringBuilder res = new();
+        int currentCount = 0;
+        for(int i=0;i<t-1;i++){
+            currentCount++;
+            if(s[i]!=s[i+1]){
+                res.Append(currentCount.ToString());
+                res.Append(s[i].ToString());
+                currentCount=0;
             }
-            
-            // Append the count and the character to the result
-            res.Append(count);
-            res.Append(currentChar);
         }
-        
+        currentCount++;
+        res.Append(currentCount.ToString());
+        res.Append(s[t-1].ToString());
         return res.ToString();
     }
 }
