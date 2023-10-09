@@ -21,8 +21,7 @@ public class Solution {
         }
         if( k%length==0) return head;
         // if k > lenth subtract using absolute value
-        while(k>=length)
-            k=Math.Abs(length-k);
+        k=k%length;
         ListNode lastprev=head,last=head;
         for(int i=0;i<length-k;i++){
             lastprev=last;
