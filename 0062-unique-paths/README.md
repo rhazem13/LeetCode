@@ -7,19 +7,19 @@
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 <img src="https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png" style="width: 400px; height: 183px;">
-<pre><strong>Input:</strong> m = 3, n = 7
+<pre style="position: relative;"><strong>Input:</strong> m = 3, n = 7
 <strong>Output:</strong> 28
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> m = 3, n = 2
+<pre style="position: relative;"><strong>Input:</strong> m = 3, n = 2
 <strong>Output:</strong> 3
 <strong>Explanation:</strong> From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
 1. Right -&gt; Down -&gt; Down
 2. Down -&gt; Down -&gt; Right
 3. Down -&gt; Right -&gt; Down
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
 
 <p>&nbsp;</p>
 <p><strong>Constraints:</strong></p>
