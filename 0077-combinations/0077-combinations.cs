@@ -1,19 +1,19 @@
 public class Solution {
     public IList<IList<int>> Combine(int n, int k) {
-        IList<IList<int>> ans=new List<IList<int>>();
-        backtrack(ans,new List<int>(),1,n,k);
-        return ans;
-        
+        List<IList<int>> res=  new List<IList<int>>();
+        List<int> tmp = new();
+        backtrack(res,tmp,n,k,1);
+        return res;
     }
-    public void backtrack(IList<IList<int>> combs,List<int> comb,int start,int n,int k){
-        if(k==0){
-            combs.Add(new List<int>(comb));
+    public void backtrack(IList<IList<int>> res, List<int> tmp, int n, int k,int depth){
+        if(tmp.Count==k){
+            res.Add(new List<int>(tmp));
             return;
         }
-        for(int i=start;i<=n;i++){
-            comb.Add(i);
-            backtrack(combs,comb,i+1,n,k-1);
-            comb.RemoveAt(comb.Count-1);
+        for(int i=depth;i<=n;i++){
+            tmp.Add(i);
+            backtrack(res,tmp,n,k,i+1);
+            tmp.RemoveAt(tmp.Count-1);
         }
     }
 }
