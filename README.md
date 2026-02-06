@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3516-find-closest-person](https://github.com/rhazem13/LeetCode/tree/master/3516-find-closest-person) |
+| [3783-mirror-distance-of-an-integer](https://github.com/rhazem13/LeetCode/tree/master/3783-mirror-distance-of-an-integer) |
 ## Two Pointers
 |  |
 | ------- |
